@@ -156,6 +156,9 @@ img {
 #links{
     margin-left:80px;
 }
+form{
+    text-align: center;
+}
 
 footer h2{
     text-align: center;
