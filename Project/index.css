@@ -20,7 +20,7 @@ header {
     max-width: 1200px;
     margin: auto;
     text-align: right;
-    background-color: #21BFAF;
+    background-color: #41D9D9;
     margin-bottom: 0px;
     font-size: 0.75rem;
 }
@@ -51,7 +51,7 @@ h1 {
 }
 
 nav ul {
-    background-color: #21BFAF;
+    background-color: #41D9D9;
     list-style-type: none;
     text-align: center;
     color: #0D0D0D;
@@ -59,12 +59,12 @@ nav ul {
 }
 
 nav ul li {
-    background-color: #21BFAF;
+    background-color: #41D9D9;
     display: flex;
 }
 
 nav ul li a {
-    background-color: #21BFAF;
+    background-color: #41D9D9;
     color: #0D0D0D;
     padding: 10px;
     text-decoration: none;
@@ -74,8 +74,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color:#B0D9D5;
-    color: #0D0D0D;
+    background-color:#0D7F8C;
+    color: white;
     text-decoration: underline;
     transition: 0.3s;
 }
