@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Mulish&family=Roboto&family=Roboto+Slab&family=Rock+Salt&display=swap');
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0D0D0D;
+    color: #F2F0EB;
+    margin: auto;
+    display: block;
+    width: 1000px;
+}
+
+header {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    text-align: right;
+    background-color: #41D9D9;
+    margin-bottom: 0px;
+    font-size: 0.75rem;
+}
+
+header svg {
+    float: left;
+    height: 100px;
+
+}
+
+svg {
+    width: 30%;
+}
+
+header h1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content:right;
+    flex: 100%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+h1 {
+    text-align: center;
+    color: #0D0D0D;
+    text-decoration: underline;
+}
+
+nav ul {
+    background-color: #41D9D9;
+    list-style-type: none;
+    text-align: center;
+    color: #0D0D0D;
+
+}
+
+nav ul li {
+    background-color: #41D9D9;
+    display: flex;
+}
+
+nav ul li a {
+    background-color: #41D9D9;
+    color: #0D0D0D;
+    padding: 10px;
+    text-decoration: none;
+    flex: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color:#0D7F8C;
+    color: white;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+nav ul {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    text-align: right;
+}
+
+ul div {
+    text-align: center;
+    float: left;
+    flex: 100%;
+}
+
+ul span {
+    text-align: center;
+    justify-content: flex-end;
+    flex: 100%;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.tekst{
+    margin:10px;
+}
+
+img {
+    max-width: 100%;
+    width: 33%;
+    height: 100%;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    border: 3px solid white;
+    padding: 10px;
+}
+
+#rechts{
+    margin-left:153px;
+}
+
+#links{
+    margin-left:80px;
+}
+
+p{
+    display: inline-block;
+}
+
+.lijst {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.lijst p {
+    flex: 100%;
+    padding: 10px;
+    margin: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #41D9D9;
+    color: black;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #41D9D9;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.list{
+    display: inline-block;
+    text-align: left;
+    margin:10px;
+}
+
+footer h2{
+    text-align: center;
+    text-decoration: underline;
+    margin:10px;
+}
+
+footer ul {
+    flex: 100%;
+    list-style-type: none;
+    display: flex;
+}
+
+footer li {
+    display: flex;
+    flex: 100%;
+    background-color: #41D9D9;
+    transition: 0.3s;
+}
+
+footer li a {
+    flex: 100%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+footer li a:hover {
+    background-color: #0D7F8C;
+    color: white;
+    transition: 0.3s;
+}
