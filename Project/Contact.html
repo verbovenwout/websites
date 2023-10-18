@@ -78,22 +78,26 @@ awesome/6.2.0/css/all.min.css" />
     </article>
     <img id="links" src="images/pexels-wout-verboven-13847013.jpg" alt="pexel foto">
     <img id="rechts" src="images/pexels-wout-verboven-14304595.jpg" alt="pexel foto">
-    <form action="#" method="post">
-      <label for="naam">Naam:</label>
-      <input type="text" id="naam" name="naam" required><br><br>
-
-      <label for="email">E-mailadres:</label>
-      <input type="email" id="email" name="email" required><br><br>
-
-      <label for="onderwerp">Onderwerp:</label>
-      <input type="text" id="onderwerp" name="onderwerp" required><br><br>
-<span>
-      <label for="vraag">Vraag:</label><br>
-      <textarea id="vraag" name="vraag" rows="5" required></textarea><br><br>
-
-      <input type="submit" value="Verzenden">
-    </span>
-  </form>
+    <div class="container">
+      <h2 class="contact">Contacteer mij</h2>
+      <form action="process.php" method="POST">
+          <div class="form-group">
+              <label for="naam">Naam:</label>
+              <input type="text" id="naam" name="naam" required>
+          </div>
+          <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="bericht">Bericht:</label>
+              <textarea id="bericht" name="bericht" required></textarea>
+          </div>
+          <div class="form-group">
+              <button type="submit">Verstuur</button>
+          </div>
+      </form>
+  </div>
     <footer>
       <h2>Footer</h2>
       <ul>
