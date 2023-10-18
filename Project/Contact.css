@@ -98,3 +98,96 @@ ul span {
     justify-content: flex-end;
     flex: 100%;
 }
+
+p{
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+article ul {
+    display: flex;
+}
+
+article li {
+    display: flex;
+}
+
+article li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 200px;
+    padding: 20px 20px 20px 25px;
+    margin-left: 50px;
+    margin-right: 100px;
+    background-color: #21BFAF;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+
+}
+
+article li a:hover {
+    background-color: #A9D9D0;
+    box-shadow: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    width: 33%;
+    height: 100%;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    border: 3px solid white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+#rechts{
+    margin-left:153px;
+}
+
+#links{
+    margin-left:80px;
+}
+
+footer h2{
+    text-align: center;
+    text-decoration: underline;
+    margin:10px;
+}
+
+footer ul {
+    flex: 100%;
+    list-style-type: none;
+    display: flex;
+}
+
+footer li {
+    display: flex;
+    flex: 100%;
+    background-color: #B0D9D5;
+    transition: 0.3s;
+}
+
+footer li a {
+    flex: 100%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+footer li a:hover {
+    background-color: #21BFAF;
+    color: black;
+    transition: 0.3s;
+}
