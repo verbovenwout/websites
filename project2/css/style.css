@@ -51,3 +51,266 @@ figure p {
 h2{
     text-align: center;
 }
+
+/* hobby */
+.containerh{
+    max-height: 400px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.carousel-item img {
+    max-height: 300px; 
+    width: auto; 
+}
+
+.lijst {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.lijst p {
+    flex: 100%;
+    padding: 10px;
+    margin: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #41D9D9;
+    color: black;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #41D9D9;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.list{
+    display: inline-block;
+    text-align: left;
+    margin:10px;
+}
+
+caption{
+    color:white;
+}
+
+/* contact */
+article ul {
+    display: flex;
+}
+
+article li {
+    display: flex;
+}
+
+article li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 200px;
+    padding: 20px 20px 20px 25px;
+    margin-left: 50px;
+    margin-right: 100px;
+    background-color: #41D9D9;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+
+}
+
+article li a:hover {
+    background-color: #0D7F8C;
+    box-shadow: none;
+    color: white;
+}
+
+.imgc {
+    max-width: 100%;
+    width: 33%;
+    height: 100%;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    border: 3px solid white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+
+#rechts{
+    margin-left:153px;
+}
+
+#links{
+    margin-left:80px;
+}
+.containerc {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin: 10px 0;
+    color: black;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.fbutton {
+    background-color: #0D0D0D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.fbutton:hover {
+    background-color: #0D7F8C;
+    transition: 0.3s;
+    color: white;
+}
+
+@media screen and (min-width: 412px) {
+
+    selection li a {
+        text-decoration: none;
+        width: 150px;
+        padding: 20px 20px 20px 25px;
+        background-color: #41D9D9;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(5, 5, 5, 0.5);
+        transition: 0.3s;
+        text-align: center;
+        margin-left: 100px;
+        margin-top: 30px;
+        list-style-type: none;
+
+    }
+
+    selection li a:hover {
+        background-color: #0D7F8C;
+        box-shadow: none;
+        color: white;
+    }
+    
+    .imgc{
+        width:50%;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 768px;
+    }
+
+    .imgc {
+        max-width: 100%;
+        width: 33%;
+        height: 100%;
+        vertical-align: middle;
+        margin-bottom: 10px;
+    }
+
+    selection li a {
+        justify-content: center;
+        text-decoration: none;
+        width: 150px;
+        padding: 20px 20px 20px 25px;
+        margin-left: 40px;
+        margin-right: 60px;
+        background-color: #41D9D9;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(5, 5, 5, 0.5);
+        transition: 0.3s;
+    }
+
+    selection li a:hover {
+        background-color: #0D7F8C;
+        box-shadow: none;
+        color: white;
+    }
+
+}
+@media screen and (min-width:1000px) {
+    body {
+        width: 1000px;
+    }
+
+    .imgc {
+        max-width: 100%;
+        width: 33%;
+        height: 100%;
+        vertical-align: middle;
+        margin-bottom: 10px;
+    }
+
+    selection li a {
+        justify-content: center;
+        text-decoration: none;
+        width: 150px;
+        padding: 20px 20px 20px 25px;
+        margin-left: 80px;
+        margin-right: 100px;
+        background-color: #41D9D9;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba(5, 5, 5, 0.5);
+        transition: 0.3s;
+    }
+
+    selection li a:hover {
+        background-color: #0D7F8C;
+        box-shadow: none;
+        color: white;
+    }
+}

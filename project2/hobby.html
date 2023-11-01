@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-    <link rel="shortcut icon" href="favicon (3).ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Project Wout Verboven</title>
 </head>
@@ -59,40 +59,162 @@
         <h1>Protefolio Wout Verboven</h1>
     </header>
     <nav>
-        <ul>
-                <li><a href="Curriculum Vitae.html"><i class="fa-regular fa-file-lines">&nbsp;</i>Curriculum Vitae</a></li>
-                <li><a href="Ervaring.html"><i class="fa-solid fa-code">&nbsp;</i>Ervaring</a></li>
-                <li><a href="Contact.html"><i class="fa-solid fa-circle-info"></i>&nbsp;</i>Contact</a></li>
-                <li><a href="Hobby's_Interesses.html"><i class="fa-solid fa-futbol">&nbsp;</i>Hobby's/ Intresses</a></li>
-        </ul>
-      </nav>
-        <h2 id="Titel">Wie ben ik</h2>
-        <p class="paragraaf">
-            Ik ben Wout Verboven en ik ben 21 jaar oud. Ik heb eerst graduaat elktromechanica gestuurd dit vond ik niet zo interessant uiteindelijk dus heb ik iets gekozen wat me wel interessant lijkt. 
-            Dus heb ik eerst gekozen voor bachelor toegepaste informatica te doen. 
-            Maar dat was iets te zwaar voor mij. 
-            Dus heb ik gekozen voor Graduaat programmeren te doen. 
-            Het doel is om te zoeken wat ik interessant vind en daar beter in te worden. 
-            Op deze site vind u meer informatie over mij. 
-            Naarmate mijn hobby's en intresses, Ervaringen, mijn CV en hoe u mij kunt bereiken.
-        </p>
-        <figure>
-            <img src="images/pf.png" alt="profile foto">
-            <p id ='tekst'>Wout Verboven</p>
-        </figure>
-        <p class="paragraaf">
-            Op deze site vind u meer informatie over mij.
-            Naarmate mijn hobby's en intresses, Ervaringen, mijn CV en hoe u mij kunt bereiken.
-        </p>
+      <ul class="d-md-flex m-md-auto">
+              <li><a href="index.html"><i class="fa-solid fa-house">&nbsp;</i>Homepagina</a></li>
+              <li><a href="ervaring.html"><i class="fa-solid fa-code">&nbsp;</i>Ervaring</a></li>
+              <li><a href="contact.html"><i class="fa-solid fa-circle-info"></i>&nbsp;</i>Contact</a></li>
+              <li><a href="cv.html"><i class="fa-regular fa-file-lines">&nbsp;</i>Curriculum Vitae</a></li>
+              <form class="w-auto">
+                <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+              </form>
+      </ul>
+    </nav>
+    <h2>Hobby's / Intresses</h2>
+    <p class="tekst">Ik heb al heel men leven voetbal gespeeld paar jaar daarvan was ik ook kapitein van mijn ploeg dus ik heb wel wat ervaring om een ploeg te leiden. 
+      Daarnaast ga ik ook fitnessen met mijn vriendin en ga ik soms muurklimmen met mijn vrienden. 
+      Vroeger had ik heel veel intresse in games maar dat is nu iets minder omdat ik wat ouder ben geworden. 
+  </p>
+  <div class="containerh mt-5">
+    <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#imageCarousel" data-slide-to="1"></li>
+            <li data-target="#imageCarousel" data-slide-to="2"></li>
+            <li data-target="#imageCarousel" data-slide-to="3"></li>
+            <li data-target="#imageCarousel" data-slide-to="4"></li>
+            <li data-target="#imageCarousel" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/pexels-gonzalo-acuña-10923070.jpg" class="d-block w-100" alt="Afbeelding 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Afbeelding 1</h3>
+                    <p>Ik speel elke zaterdag een match.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/fitness.jpg" class="d-block w-100" alt="Afbeelding 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Afbeelding 2</h3>
+                    <p>Ik gebruik vaak dumbells in de fitness.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/20230831_223751-min (1).jpg" class="d-block w-100" alt="Afbeelding 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Afbeelding 3</h3>
+                    <p>Ik heb 2 keer in de week training.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/pexels-victor-freitas-841130.jpg" class="d-block w-100" alt="Afbeelding 3">
+              <div class="carousel-caption d-none d-md-block">
+                  <h3>Afbeelding 4</h3>
+                  <p>Als ik niet moet gaan trainen ga ik fitnessen.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/pexels-jonathan-petersson-399187.jpg" class="d-block w-100" alt="Afbeelding 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Afbeelding 5</h3>
+                <p>Tijdens de training speel ik vaak voor plezier.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/pexels-rdne-stock-project-8612034.jpg" class="d-block w-100" alt="Afbeelding 3">
+          <div class="carousel-caption d-none d-md-block">
+              <h3>Afbeelding 6</h3>
+              <p>Ik gebruik geen supplementen of shakes.</p>
+          </div>
+      </div>
+        </div>
+        <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Vorige</span>
+        </a>
+        <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Volgende</span>
+        </a>
+    </div>
+</div>
+<div class="lijst">
+<p>
+  Ik ben net begonnen met fitnessen ik probeer elke week 3 keer te gaan.
+  Dan doe ik meestal een full body workout. 
+  Dit lukt niet elke week maar ik probeer zoveel mogelijk te gaan.
+  En meestal met mijn vriendin of 1 van men vrienden.
+  Dit komt omdat ik het alleen niet zo tof vind.
+  Daarnaast let ik niet echt op men eten of pak ik geen sublimenten.
+  Ik doe dit vooral voor men plezier en voor wat bij te kunnen praten met vrienden.
+</p>
+<p>
+  Ik voetbal al heel lang bij Blauwvoet Oevel. 
+  Ik heb in het begin altijd rechts vanvoor gestaan.
+  Daarna moest ik over een heel veld spelen en speelde ik in het middenveld.
+  En de laatste tijd speel ik centraal vanachter. 
+  Toen ik in het middenveld speelde was ik heel de tijd kapitein van mijn ploeg.
+  Ik speel op gewestelijk niveau omdat ik vooral voor het plezier speel.
+  Alleen als we een competitie match spelen speel ik wel voor te winnen en speel ik wel serieus.
+</p>
+</div>
+<h2>Gaming</h2>
+<p>
+  Vroeger speelde ik ook veel games ik speelde vooral:
+</p>
+  <div class="container">
+    <table>
+      <caption>Lijst van mijn favorieten games</caption>
+      <tr>
+          <th>Positie</th>
+          <th>Spel</th>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>Call of Duty: Black Ops 3</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>GTA 5</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>ARK: Survival Evolved</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>Rocket League</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>Geometry Dash</td>
+      </tr>
+  </table>
+  </div>
+  <p>
+  Ik heb het meeste Black Ops 3 gespeeld maar dan vooral de zombie mode.
+  Ik was met een maat 1 van de beste van België en Nederland.
+  De moeilijkste game dat heb ik gespeeld is Geometry Dash.
+  Omdat je als je 1 foutje maakt direct dood bent dus je moet altijd gefocust zijn.
+</p>
         <footer>
-            <h2>Footer</h2>
-            <ul class="col d-flex">
-                <li class="d-flex col"><a class="smooth col" href="https://github.com/"><i class="fa-brands fa-github">&nbsp;</i>GitHub</a></li>
-                <li class="d-flex col"><a class="smooth col" href="https://www.pexels.com/nl-nl/@wout-verboven-321163321/"><i class="fa-solid fa-images"> &nbsp;</i>Pexels</a></li>
-                <li class="d-flex col"><a class="smooth col" href="#"><i class="fa-solid fa-circle-up">&nbsp;</i>Top</a></li>
-            </ul>
-        </footer>
-
+          <h2 class="my-4">Footer</h2>
+          <ul class="col d-flex">
+            <div>
+              <li class="justify-content-center mb-3">&copy;Wout Verboven</li>
+              <li><a href="https://www.linkedin.com/in/wout-verboven-995336208/"><i class="fa-brands fa-linkedin">&nbsp;</i>LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/wout.verboven.7"><i class="fa-brands fa-facebook">&nbsp;</i>Facebook</a></li>
+            </div>
+            <span>
+              <li class="d-flex col"><a class="smooth col" href="https://github.com/"><i class="fa-brands fa-github">&nbsp;</i>GitHub</a></li>
+              <li class="d-flex col"><a class="smooth col" href="https://www.pexels.com/nl-nl/@wout-verboven-321163321/"><i class="fa-solid fa-images"> &nbsp;</i>Pexels</a></li>
+              <li class="d-flex col"><a class="smooth col" href="#"><i class="fa-solid fa-circle-up">&nbsp;</i>Top</a></li>
+            </span>
+          </ul>
+      </footer>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
