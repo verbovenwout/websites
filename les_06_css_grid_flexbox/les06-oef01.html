@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>CSS Layout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+        }
+        body{
+            background: url(images/kompas.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
+        .label{
+            font-family: "Indie Flower", cursive;
+            font-size: 28px;
+            color: white;
+        }
+        .noord{
+            position: fixed;
+            left: 50%;
+            top: 10px;
+            transform: translate(-50%,0);
+        }
+        .zuid{
+            position: fixed;
+            left: 50%;
+            bottom: 10px;
+            transform: translate(-50%,0);
+        }
+        .oost{
+            position: fixed;
+            top: 50%;
+            right: 10px;
+            transform: translate(0,-50%);
+        }
+        .west{
+            position: fixed;
+            top: 50%;
+            left: 10px;
+            transform: translate(0,-50%);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="compass"></div>
+    <div class="label noord">Noord</div>
+    <div class="label oost">Oost</div>
+    <div class="label zuid">Zuid</div>
+    <div class="label west">West</div>
+</body>
+
+</html>

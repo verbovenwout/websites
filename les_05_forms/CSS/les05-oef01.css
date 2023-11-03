@@ -1,0 +1,29 @@
+form {
+    width: 40%;
+}
+
+input[type=text],
+input[type=submit] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    background-color: lightblue;
+}
+
+input[type=text]:focus {
+    background-color: white;
+    border: 3px solid #555;
+}
+
+input[type=submit] {
+    font-size: 25px;
+}
+
+body {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
